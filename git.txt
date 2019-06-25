@@ -1,0 +1,6 @@
+cd-change directory
+pwd-path working directory
+mkdir-makedirectory
+cd..
+touch --file
+ls-list
