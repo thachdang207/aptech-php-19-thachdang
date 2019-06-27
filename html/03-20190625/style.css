@@ -1,0 +1,23 @@
+#mot
+{
+    background-color: red;
+    display: flex;
+}
+#hai
+{
+    background-color: green;
+    display: flex;
+}
+#ba
+{
+    background-color: black;
+    display: flex;
+}
+div{
+    height:100px;
+}
+#bon
+{
+    background-color:aqua;
+    display:flex;
+}
