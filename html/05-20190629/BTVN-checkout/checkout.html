@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.css">
+
+</head>
+<body class="vh-100 bg-light">
+    <div class="container text-center py-5 w-75">
+        <img class="d-block mx-auto mb-4" src="./anh/bootstrap-solid.svg" alt="" width="72" height="72">
+        <h2>Checkout form</h2>
+        <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+    </div>
+    <div class="container w-75 d-flex">
+        <div class="col-8">
+            <h3>Billing address</h3>
+            <form>
+                <div class="form-group d-flex">
+                    <div class="col-6 pl-0"><label>First name</label>
+                        <input class="form-control" placeholder=""></div>
+                    <div class="col-6 pr-0">
+                        <label>Last name</label>
+                    <input class="form-control" placeholder="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Username</label>
+                    <div class="input-group flex-nowrap">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">@</span>
+                        </div>
+                        <input class="form-control" placeholder="Username">
+                    </div>    
+                </div>
+                <div class="form-group">
+                    <label class="d-flex">Email <span class="text-muted">&nbsp;(Optional)</span></label>
+                    <input class="form-control" placeholder="you@example.com">    
+                </div>
+                <div class="form-group">
+                    <label class="d-flex">Addresss</label>
+                    <input class="form-control" placeholder="1234 Main St">    
+                </div>
+                <div class="form-group">
+                    <label class="d-flex">Address 2<span class="text-muted">&nbsp;(Optional)</span></label>
+                    <input class="form-control" placeholder="Apartment or suite">    
+                </div>
+                <div class="d-flex justify-content-between">
+                    <div class="col-4 pl-0">
+                        <label>Country</label>
+                        <select class="custom-select">
+                            <option value="">Choose...</option>
+                            <option>United States</option>
+                          </select>
+                         
+                    </div>
+                    <div class="col-3">
+                        <label>State</label>
+                        <select class="custom-select">
+                            <option value="">Choose...</option>
+                            <option>California</option>
+                          </select>
+                    </div>
+                    <div class="col-2 pr-0">
+                        <label>Zip</label>
+                        <input class="form-control" placeholder="">
+                    </div>
+                </div>
+                <hr>
+                <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox"> Shipping address is the same as my billing address
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox"> Save this information for next time
+                    </label>
+                </div>
+                <hr>
+                <h3>Payment</h3>
+                <div class="form-check">
+                    <label class="form-check-label" for="radio1">
+                      <input type="radio" class="form-check-input" name="optradio" value="option1" checked>Credit card
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="radio2">
+                      <input type="radio" class="form-check-input" name="optradio" value="option2">Debit card
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="optradio">PayPal
+                    </label>
+                </div>
+                <hr>
+                <div class="form-group d-flex">
+                    <div class="col-6 pl-0"><label>Name on card</label>
+                        <input class="form-control" placeholder="">
+                        <small class="text-muted">Full name as displayed on card</small></div>
+                    <div class="col-6 pr-0">
+                        <label>Credit card number</label>
+                    <input class="form-control" placeholder="">
+                    </div>
+                </div>
+                <div class="form-group d-flex">
+                    <div class="col-3 pl-0 mr-3"><label>Expiration</label>
+                        <input class="form-control" placeholder=""></div>
+                    <div class="col-3">
+                        <label>CVV</label>
+                    <input class="form-control" placeholder="">
+                    </div>
+                </div>
+                <hr>
+                <button type="button" class="btn btn-info w-100">Continue to checkout</button>
+            </form>
+        </div>
+
+        <div class="col-4">
+                    <h3 class="text-muted d-flex justify-content-between">Your cart
+                            <span class="badge badge-secondary badge-pill">3</span>
+                    </h3>
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                      <h6 class="my-0">Product name</h6>
+                      <small class="text-muted">Brief description</small>
+                    </div>
+                    <span class="text-muted">$12</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                        <div>
+                          <h6 class="my-0">Second product</h6>
+                          <small class="text-muted">Brief description</small>
+                        </div>
+                        <span class="text-muted">$8</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                        <h6 class="my-0">Third item</h6>
+                        <small class="text-muted">Brief description</small>
+                    </div>
+                    <span class="text-muted">$5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                        <h6 class="my-0 text-success">Promo code</h6>
+                        <small class="text-muted text-success">EXAMPLECODE
+                            </small>
+                    </div>
+                    <span class="text-muted text-success">-$5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                        <span>Total (USD)</span>
+                    </div>
+                    <span>$20</span>
+                 </li>
+            </ul>
+            <form>
+                    <div class="form-group">
+                            <label>Username</label>
+                            <div class="input-group flex-nowrap">
+                                    <input class="form-control" placeholder="Promo code">
+                                <div class="input-group-append">
+                                        <button type="button" class="btn btn-secondary">Redeem</button>
+                                </div>
+                            </div>    
+                        </div>  
+            </form>
+        </div>
+    </div>
+    <div class="container h-25">
+        <div class="row h-50 d-flex justify-content-center align-items-end">
+                <p class="text-muted">© 2017-2019 Company Name</p>
+        </div>
+        <div class="row h-50 d-flex justify-content-center align-items-start">
+                <ul class="list-inline d-flex">
+                        <li class="list-inline-items mr-2">
+                            <a href="#">Privacy</a>
+                        </li>
+                        <li class="list-inline-items mr-2"> <a href="#">Terms</a></li>
+                        <li class="list-inline-items mr-2"> <a href="#">Support</a></li>
+                    </ul>
+        </div>
+    </div>
+</body>
+</html>
