@@ -1,0 +1,42 @@
+body
+{
+    background: whitesmoke;
+}
+#Parent
+{
+    display: flex;
+}
+#First,
+#Second,
+#Third
+{
+    height:100px;
+    width:33%;
+}
+#First
+{
+    background: yellow;
+}
+#Second
+{
+    background: red;
+}
+#Third
+{
+    background: green;
+}
+@media only screen and (max-width:768px)
+{
+    #First
+    {
+        background:red;
+    }
+    #Second
+    {
+        background: green;
+    }
+    #Third
+    {
+        background: yellow;
+    }
+}

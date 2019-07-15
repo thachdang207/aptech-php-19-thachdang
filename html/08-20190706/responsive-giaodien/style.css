@@ -1,0 +1,33 @@
+body{
+    background: whitesmoke;
+}
+#Farent
+{
+    display: flex;
+}
+#First,
+#Second
+{
+    height:100px;
+    width:50%;
+}
+#First
+{
+    background: red;
+}
+#Second
+{
+    background: green;
+}
+@media only screen and (max-width:768px)
+{
+    #Farent
+    {
+        display: block;
+    }
+    #First,
+    #Second
+    {
+        width:100%;
+    }
+}
