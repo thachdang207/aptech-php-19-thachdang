@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+</head>
+<body>
+    <h1 id='doi-mau'>Hello world</h1>
+    <button onclick="maudo()">Mau do</button>
+    <button onclick="mauxanh()">Mau xanh</button>
+    <button onclick="maudoxanh()">Luan Phien</button>
+    <script>
+        function maudo()
+        {
+            document.getElementById('doi-mau').style.color="red";
+        }
+        function mauxanh()
+        {
+            document.getElementById('doi-mau').style.color="blue";
+        }
+        var a=document.getElementById('doi-mau');
+        function maudoxanh()
+        {
+            (a.style.color==(a.style.color="red"))?mauxanh():maudo();
+        }
+    </script>
+</body>
+</html>
