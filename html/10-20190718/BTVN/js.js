@@ -71,3 +71,9 @@ var data = {
         var element = document.getElementById('tr-'+i);
         element.appendChild(para);
     }
+function remove()
+{
+    var parent=document.getElementById("table");
+    var child=document.getElementById("tr-0");
+    parent.removeChild(child);
+}
