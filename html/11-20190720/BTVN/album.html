@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function()
+        {
+            $("button").click(function()
+            {
+                $("#collapse").animate(
+                    {
+                        height:'toggle'
+                    }
+                );
+            });
+        });
+    </script>
+</head>
+<body class="vh-100">
+    <div class="container-fluid bg-dark flex-column align-items-center" >
+        <div id="collapse">
+            <div class="row w-75 d-flex">
+                    <div class="col-12 col-md-6 offset-2">
+                            <h3 class="text-white py-2">About</h3>
+                            <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+                        </div>
+                        <div class="col-6 col-md-2 offset-2 text-white">
+                            <h3 class="text-white py-2">Contact</h3>
+                            <ul class="list-unstyled text-white">
+                                <li>
+                                    <a href="#" class="text-white">Follow on Twitter</a>
+                                </li>
+                                <li> 
+                                    <a href="#" class="text-white">Like on Facebook</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-white">Email me</a>
+                                </li>
+                            </ul>
+                        </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 col-md-6 offset-2">
+                        <nav class="navbar navbar-dark bg-dark navbar-expand-sm justify-content-between">
+                                <a class="navbar-brand" href="#">
+                                    <i class="fa fa-camera text-white"></i>
+                                    <span class="text-white">Album</span>
+                                </a>
+                                <button class="btn btn-dark mr-0">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                        </nav>
+                </div>
+        </div>
+        </div>
+</body>
+</html>

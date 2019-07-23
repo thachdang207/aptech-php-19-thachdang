@@ -1,0 +1,22 @@
+.content
+{
+    display:none;
+    animation-name:fadeIn;
+    animation-duration: 0s;
+}
+.collapse
+{
+    animation-name:fadeIn;
+    animation-duration: 0s;
+}
+@keyframes fadeIn
+{
+    from
+    {
+        opacity: 0;
+    }
+    to 
+    {
+        opacity: 1;
+    }
+}

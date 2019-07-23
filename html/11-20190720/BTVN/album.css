@@ -1,0 +1,24 @@
+/* .content
+{
+    display: none;
+}
+.collapse
+{
+    animation-name:fadeIn;
+    animation-duration: 10s;
+}
+@keyframes fadeIn
+{
+    from
+    {
+        display: none;
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to
+    {   
+        display: show;
+        opacity: 1;
+        transform: translateY(0%);
+    }
+} */

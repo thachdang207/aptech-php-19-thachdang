@@ -132,7 +132,9 @@ var data = {
     // var tableData=document.createElement('td');
     // tableData.innerHTML=data.users[0].id;
     // tableRow.appendChild(tableData);
-    for(var i=0;i<3;i++)
+function inBang()
+{
+  for(var i=0;i<3;i++)
     {
       var tableRow =document.createElement("tr");
       tableBody.appendChild(tableRow);
@@ -148,3 +150,5 @@ var data = {
         tableRow.appendChild(tableData);
       }
     }
+}
+document.getElementById("cl").addEventListener("click",inBang);

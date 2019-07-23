@@ -1,0 +1,28 @@
+/* th,td,table
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:2px;
+}
+th{
+
+    background-image: radial-gradient( red,blue);
+} */
+td
+{
+    animation-name: fadeIn;
+    animation-duration: 10s;
+}
+@keyframes fadeIn
+{
+    from
+    {
+        opacity:0;
+        transform: translateX(-100px);
+    }
+    to
+    {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
