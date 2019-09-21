@@ -1,0 +1,20 @@
+#container-1
+{
+    background-image: url("./bg-img-1.jpeg");
+    background-position: center;
+}
+#container-3_row-1
+{
+    background-image: url("./containe-3_row-1.jpeg");
+    background-position: center;
+}
+#container-3_row-2
+{
+    background-image: url("./containe-3_row-2.jpeg");
+    background-position: center;
+}
+#container-3_row-3
+{
+    background-image: url("./containe-3_row-3.jpeg");
+    background-position: center;
+}

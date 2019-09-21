@@ -8,7 +8,7 @@ th{
 
     background-image: radial-gradient( red,blue);
 } */
-td
+/* td
 {
     animation-name: fadeIn;
     animation-duration: 10s;
@@ -25,4 +25,4 @@ td
         opacity: 1;
         transform: translateX(0%);
     }
-}
+} */

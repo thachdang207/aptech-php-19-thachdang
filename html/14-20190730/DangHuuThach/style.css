@@ -1,0 +1,30 @@
+.container .row .col-md-4 .card-1 {
+  background-image: url(./containe-3_row-1.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.container .row .col-md-4 .card-2 {
+  background-image: url(./container-2.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.container .row .col-md-6 .logo-1 {
+  background-image: url(./softechaptech.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+  width: 50%;
+}
+
+.card img {
+  height: 200px;
+}
+
+.card .card-img-height {
+  height: 400px;
+}
+/*# sourceMappingURL=style.css.map */

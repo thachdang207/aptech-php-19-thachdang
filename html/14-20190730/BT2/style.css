@@ -1,0 +1,48 @@
+.container .row .photo-1 {
+  height: 150px;
+  width: 150px;
+  background-image: url(./container-2-1.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.container .row .photo-2 {
+  height: 150px;
+  width: 150px;
+  background-image: url(./container-2.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.container .row .photo-3 {
+  height: 150px;
+  width: 150px;
+  background-image: url(./container-2-3.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.image-1 {
+  background-image: url(./container-2-1.jpeg);
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-2 {
+  background-image: url(./container-2.jpeg);
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-3 {
+  background-image: url(./container-2-3.jpeg);
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */

@@ -151,4 +151,28 @@ function inBang()
       }
     }
 }
-document.getElementById("cl").addEventListener("click",inBang);
+// document.getElementById("cl").addEventListener("click",inBang);
+$(document).ready(function()
+      {
+        $("button").click(function()
+          {
+            for(var i=0;i<3;i++)
+            {
+              $("#table-body").append("<tr></tr>")
+              {
+                console.log(tr);
+                var user=data.users[i];
+                var info=[user.id,user.name,user.email];
+                for(var j=0;j<info.length;j++)
+                {
+                  var tx=info[j];
+                  $("tr").append("<td></td>").t;
+                  
+
+                $(".abc").append("<td></td>")
+                }
+              }
+            }
+          });
+      }
+    );
